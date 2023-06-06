@@ -8,7 +8,7 @@ Test your coding knowledge with this 5 question multiple choice quiz. You have 7
 ## Usage
 
 Deployed URL:
-
+https://akecs512.github.io/Quiz-Challenge-New/
 
 Screenshots:
 
