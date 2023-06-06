@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/game.css">
+</head>
+<body>
+  <section id="before-start">
+    <h1>Coding Quiz</h1>
+    <p>This is a game that tests your coding knowledge</p>
+    <button id="start-button">Start</button>
+  </section>
+  <section><a href="highscore.html">View high scores</a></section>
+  <section><span id="time-left"></span>
+  </section>
+  <section id="questions-container" style="display: none;">
+    <h2 id="question"></h2>
+    <ul id="question-answers">
+        <li><button class="choice"></button></li>
+        <li><button class="choice"></button></li>
+        <li><button class="choice"></button></li>
+        <li><button class="choice"></button></li>
+    </ul>
+    <h2 id="answer-result" style="display: none;"></h2>
+</section>
+<section id="final-score-container" style="display: none;">
+  <h1>All done!</h1>
+  <span>You're final score is <span id="final-score"></span>
+  <form id="initials-form">
+    <label for="initials">Enter Initials</label><br>
+    <input type="text" id="initials" name="initials" value=""><br>
+    <input type="submit" value="Submit">
+  </form> 
+</section>
+<script src="./scripts/game.js"></script>
+</body>
+</html>
